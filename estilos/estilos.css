@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/********************************* HEADER ******************************/
+.header {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+@media (min-width: 1000px) {
+  .header nav {
+    background-color: #33B5FF;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 60px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header nav {
+    background-color: #33B5FF;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 30vh;
+  }
+}
+
+.header nav > h3 {
+  background-color: #FF7D33;
+  border-radius: 0.9rem;
+  height: auto;
+  width: 130px;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  -webkit-box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15) !important;
+          box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15) !important;
+  font-size: 20px;
+}
+
+.header nav > h3:hover {
+  color: green;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.header nav h1 {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+.header nav h1:hover {
+  color: #FF7D33;
+  cursor: pointer;
+}
+
+/**********************************************************************************/
+/****************** PRESENTACION **********************************/
+/*MOBILE FIRST*/
+.presentacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 100%;
+}
+
+.presentacion .datos-presentacion {
+  background-color: #33B5FF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+
+.presentacion .datos-presentacion .imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.presentacion .datos-presentacion .imagen #perfil {
+  height: auto;
+  width: 400px;
+  border: 10px solid #FF7D33;
+}
+
+.presentacion .datos-presentacion .titulo-presentacion {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  padding: 10px 6px;
+}
+
+.presentacion .datos-presentacion .titulo-presentacion h1 {
+  font-size: 55px;
+  font-family: sans-serif;
+  padding: 0px 10px;
+  font-weight: bolder;
+}
+
+.presentacion .datos-presentacion .titulo-presentacion h3 {
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.presentacion .datos-presentacion .contacto-presentacion {
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.presentacion .datos-presentacion .contacto-presentacion .wsmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.presentacion .datos-presentacion .contacto-presentacion .wsmail img {
+  height: auto;
+  width: 60px;
+}
+
+.presentacion .datos-presentacion .contacto-presentacion .wsmail p {
+  font-size: 30px;
+  font-weight: bold;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 8px;
+}
+
+.presentacion .datos-presentacion .personales-presentacion {
+  margin-bottom: 20px;
+}
+
+.presentacion .datos-presentacion .personales-presentacion p {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.presentacion .introduccion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.presentacion .introduccion .desc {
+  font-family: "Indie Flower", cursive;
+  padding: 20px;
+  font-size: 2rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 500px;
+  margin-bottom: 120px;
+  margin-top: 50px;
+}
+
+.presentacion .introduccion .desc p {
+  text-align: center;
+}
+
+.presentacion .introduccion .redes {
+  min-width: 400px;
+}
+
+.presentacion .introduccion .redes .red {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.presentacion .introduccion .redes .red img {
+  height: auto;
+  width: 60px;
+  padding: 3px;
+}
+
+.presentacion .introduccion .redes .red .icono {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+}
+
+.presentacion .introduccion .redes .red .link {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.presentacion .introduccion .redes .red .link p {
+  text-align: center;
+}
+
+.presentacion .introduccion .redes h3 {
+  text-align: center;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=estilos.css.map */
